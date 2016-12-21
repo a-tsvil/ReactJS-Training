@@ -6,6 +6,10 @@ module.exports = {
     path: path.join(__dirname, 'dist'),
     filename: 'index.js',
   },
+
+  devtool: 'inline-source-map',
+  watch: true,
+
   resolve: {
     extensions: ['', '.js', '.jsx'],
   },
