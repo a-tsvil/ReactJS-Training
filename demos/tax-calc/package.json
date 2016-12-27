@@ -1,0 +1,33 @@
+{
+  "name": "tax-calc",
+  "version": "0.0.1",
+  "description": "Tax Calculator for demonstrational purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Ales Tsvil",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "6.13.2",
+    "babel-eslint": "6.1.2",
+    "babel-loader": "6.2.5",
+    "babel-preset-es2015": "6.13.2",
+    "babel-preset-react": "6.11.1",
+    "babel-preset-stage-2": "6.13.0",
+    "css-loader": "0.26.1",
+    "style-loader": "0.13.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "6.13.0",
+    "babel-runtime": "6.11.6",
+    "react": "15.3.1",
+    "react-dom": "15.3.1",
+    "webpack": "1.13.2",
+    "webpack-dev-middleware": "1.6.1",
+    "webpack-hot-middleware": "2.12.2"
+  }
+}
