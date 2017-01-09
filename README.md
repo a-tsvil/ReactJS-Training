@@ -27,9 +27,10 @@ ReactJS training program, tasks, and required assets can be found here.
 - [Slides](#)
 - [Task](#)
 
-## Lecture 7: Isomorphyc React
+## Lecture 7: Universal React
 - [Slides](#)
 - [Task](#)
+- [Demo](https://github.com/DioDread/ReactJS-Training/tree/master/demos/ssr)
 
 ## Lecture 8: Testing React Apps
 - [Slides](#)
