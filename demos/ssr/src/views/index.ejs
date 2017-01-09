@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="node_modules/react/dist/react.js" charset="utf-8"></script>
+    <script src="node_modules/react-dom/dist/react-dom.js" charset="utf-8"></script>
+    <!-- <script src="https://unpkg.com/react-router/umd/ReactRouter.min.js"></script> -->
+    <script src="node_modules/react-router/umd/ReactRouter.js" charset="utf-8"></script>
+    <title>SSR</title>
+  </head>
+  <body>
+    <div id="root"><%- markup -%></div>
+    <script defer src="/dist/app.js"></script>
+  </body>
+</html>
