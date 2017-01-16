@@ -8,13 +8,16 @@ ReactJS training program, tasks, and required assets can be found here.
 ## Lecture 2: ReactJS \#1
 - [Slides](http://slides.com/diodredd/deck-10-11)
 - [Task](#)
+- [Demo](https://github.com/DioDread/ReactJS-Training/tree/master/demos/hw)
 
 ## Lecture 3: ReactJS \#2
 - [Slides](http://slides.com/diodredd/deck-10-11-12)
 - [Task](#)
+- [Demo](https://github.com/DioDread/ReactJS-Training/tree/master/demos/table-filter)
 
 ## Lecture 4: React Router
 - [Task](#)
+- [Demo](https://github.com/DioDread/ReactJS-Training/tree/master/demos/routing-app)
 
 ## Lecture 5: Redux
 - [Slides](http://slides.com/diodredd/deck-10-11-12-13)
@@ -24,22 +27,15 @@ ReactJS training program, tasks, and required assets can be found here.
 - [Slides](#)
 - [Task](#)
 
-## Lecture 7: Redux-Saga
+## Lecture 7: Universal React
+- [Slides](#)
+- [Task](#)
+- [Demo](https://github.com/DioDread/ReactJS-Training/tree/master/demos/ssr)
+
+## Lecture 8: Testing React Apps
 - [Slides](#)
 - [Task](#)
 
-## Lecture 8: App Building
-- [Slides](#)
-- [Task](#)
-
-## Lecture 9: Isomorphyc React
-- [Slides](#)
-- [Task](#)
-
-## Lecture 10: Testing React Apps
-- [Slides](#)
-- [Task](#)
-
-## Lecture 11: React and Typescript 
+## Lecture 9: React and Typescript 
 - [Slides](#)
 - [Task](#)
