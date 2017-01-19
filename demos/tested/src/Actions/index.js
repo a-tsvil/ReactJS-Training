@@ -41,10 +41,7 @@ export const getDataCall = () => dispatch => {
   }, 3000);
 };
 
-// dispatch(addData());
-
-
-let mockData = [{
+export const mockData = [{
   id: '0',
   data: 'some textual data'
 }, {
