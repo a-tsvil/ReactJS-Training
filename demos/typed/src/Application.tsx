@@ -12,6 +12,12 @@ interface AppProps {
     data: Data[];
 }
 
+interface AppState {
+    data: Data[];
+    isPending?: boolean;
+    recievedAt?: Date;
+}
+
 class Application extends Component<AppProps, {}> {
     componentDidMount() {
         const { dispatch } = this.props;
@@ -32,7 +38,7 @@ class Application extends Component<AppProps, {}> {
             </div>
         );
         let dataRows: JSX.Element[] = [];
-        this.props.data.forEach((row: Data) => dataRows.push(<div>{ row.id } | { row.data } </div>));
+        this.props.data.forEach((row: Data) => dataRows.push(<div key={ row.id }>{ row.id } | { row.data } </div>));
         return (
             <div>
                 { dataRows }
@@ -44,7 +50,7 @@ class Application extends Component<AppProps, {}> {
     }
 }
 
-const mapStateToProps = (state: any) => {
+const mapStateToProps = (state: AppState) => {
     const { data } = state;
     return {
         data
