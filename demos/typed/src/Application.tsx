@@ -7,7 +7,7 @@ import { getDataCall, updateDataCall, addData } from './Actions';
 import Data from './Actions/Data';
 import IAppAction from './Actions/IAppAction';
 
-interface AppProps { 
+interface AppProps {
     dispatch: Dispatch<IAppAction>;
     data: Data[];
 }

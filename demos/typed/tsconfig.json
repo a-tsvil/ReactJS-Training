@@ -12,6 +12,10 @@
         "suppressImplicitAnyIndexErrors": true,
         "jsx": "react"
     },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ],
     "awesomeTypescriptLoaderOptions": {
 
     }
