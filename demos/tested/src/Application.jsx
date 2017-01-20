@@ -24,7 +24,7 @@ export class Application extends Component {
       </div>
     );
     let dataRows = [];
-    this.props.data.forEach(row => dataRows.push(<div>{row.id} | {row.data} </div>));
+    this.props.data.forEach(row => dataRows.push(<div key={ row.id }>{ row.id } | { row.data } </div>));
     return (
       <div>
         {dataRows}
